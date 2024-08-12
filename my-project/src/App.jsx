@@ -1,10 +1,10 @@
-import Nabvar from "./components/Navbar/Nabvar"
+import Hero from "./components/Hero/Hero"
 
 
 const App = () => {
   return (
-    <main>
-      <Nabvar />
+    <main className="overflow-x-hidden text-white bg-black">
+      <Hero />
     </main>
   )
 }

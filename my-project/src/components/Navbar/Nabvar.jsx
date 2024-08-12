@@ -30,8 +30,8 @@ const MenuData = [
 
 const Nabvar = () => {
   return (
-    <nav className="bg-black text-white py-3">
-      <div className="container flex justify-between">
+    <nav className="">
+      <div className="bg-black/40 backdrop-blur-sm rounded-full py-3 container flex justify-between">
         {/*Logo Section*/}
         <div>
           <img src={Logo} alt="" className="max-w-[120px]" />
