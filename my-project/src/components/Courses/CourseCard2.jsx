@@ -25,9 +25,9 @@ const CourseCard2 = () => {
 
                     {/*Image Section*/}
                     <div className="relative">
-                        <img src={CourseImage} alt="" className="object-cover h-full" />
+                        <img src={CourseImage} alt="" className="object-cover h-full w-full" />
                     </div>
-                    <div className="absolute inset-0 bg-gradient-to-l from-[#0e0e0f] from-1% to-transparent to-10%"></div>
+                    <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-l from-[#0e0e0f] from-1% to-transparent to-10%"></div>
 
                     {/*text-content section*/}
                     <div className="p-12 py-16 flex flex-col justify-center">
