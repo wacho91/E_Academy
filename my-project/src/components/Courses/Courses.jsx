@@ -1,5 +1,6 @@
 import CourseCard from "./CourseCard"
 import CourseCard2 from "./CourseCard2"
+import CouserCard3 from "./CouserCard3"
 
 
 const Courses = () => {
@@ -16,7 +17,7 @@ const Courses = () => {
             {/*Courses*/}
             <CourseCard />
             <CourseCard2 />
-            {/*Cards*/}
+            <CouserCard3 />
         </div>
       </section>
     </>
