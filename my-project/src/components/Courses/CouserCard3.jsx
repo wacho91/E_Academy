@@ -18,21 +18,21 @@ const courseData = {
 const CouserCard3 = () => {
     return (
         <>
-         <section className="py-12">
-            <div className="bg-[#0e0e0f] rounded-3xl overflow-hidden">
-                <div className="grid grid-cols-1 md:grid-cols-2">
-                    {/*text-content section*/}
-                    <div className="p-12 py-16 flex flex-col justify-center">
-                    <CardText courseData={courseData}/>
+            <section className="py-12">
+                <div className="bg-[#0e0e0f] rounded-3xl overflow-hidden">
+                    <div className="grid grid-cols-1 md:grid-cols-2">
+                        {/*text-content section*/}
+                        <div className="p-12 py-16 flex flex-col justify-center">
+                            <CardText courseData={courseData}/>
+                        </div>
+                        {/*Image Section*/}
+                        <div className="relative">
+                            <img src={CourseImage} alt="" className="object-cover h-full w-full" />
+                            <div className="absolute inset-0 bg-grandient-to-b md:bg-gradient-to-r from-[#0e0e0f] from-1% to-transparent to-10%"></div>
+                        </div>
                     </div>
-                    {/*Image Section*/}
-                    <div className="relative">
-                        <img src={CourseImage} alt="" className="object-cover h-full w-full" />
-                    </div>
-                    <div className="absolute inset-0 bg-grandient-to-b md:bg-gradient-to-r from-[#0e0e0f] from-1% to-transparent to-10%"></div>
-                </div>
-            </div>    
-        </section> 
+                </div>    
+            </section> 
         </>
       )
 }

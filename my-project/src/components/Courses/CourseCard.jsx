@@ -28,8 +28,8 @@ const CourseCard = () => {
                 {/*Image Section*/}
                 <div className="relative">
                     <img src={CourseImage} alt="" className="object-cover h-full w-full" />
+                    <div className="absolute inset-0 bg-grandient-to-b md:bg-gradient-to-r from-[#0e0e0f] from-1% to-transparent to-10%"></div>
                 </div>
-                <div className="absolute inset-0 bg-grandient-to-b md:bg-gradient-to-r from-[#0e0e0f] from-1% to-transparent to-10%"></div>
             </div>
         </div>    
     </section> 
