@@ -59,7 +59,7 @@ const TestimonialData = [
 const Testimonials = () => {
   return (
     <>
-        <section className="py-12 md:py-24 bg-[#121212]">
+        <section style={bgStyle} className="py-12 md:py-24 bg-[#121212]">
             <div className="container">
                 {/*Title Section*/}
                 <p className="text-3xl md:text-6xl font-bold md:w[800px] mx-auto text-center uppercase">Here's what our Current Students have to say...</p>
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 </div>
             </div> 
             <div className="flex justify-center py-10 md:py-11 md:translate-y-20 bg-gradient-to-t from-[#121212] from-50% to-transparent">
-              <button className="bg-white text-black text-2xl rounded-md font-bold px-14 py-2">
+              <button className="bg-white text-black text-2xl rounded-md font-bold px-24 py-15 inline-block w-[300px]">
                     See More
               </button>
             </div>   

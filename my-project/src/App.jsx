@@ -1,5 +1,6 @@
 import Brand from "./components/Brand/Brand"
 import Courses from "./components/Courses/Courses"
+import Focus from "./components/Focus/Focus"
 import Hero from "./components/Hero/Hero"
 import Testimonials from "./components/Testimonials/Testimonials"
 
@@ -11,6 +12,7 @@ const App = () => {
       <Brand />
       <Courses />
       <Testimonials />
+      <Focus />
     </main>
   )
 }
